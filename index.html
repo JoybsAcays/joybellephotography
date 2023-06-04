@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title> JA Photography </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="Logo1.png" class="Logo">
+            <ul>
+                <li> <a href="index.html"> HOME </a></li>
+                <li> <a href="About.html"> ABOUT </a></li>
+                <li> <a href="Contact.html"> CONTACT </a></li>
+                <li> <a href="Profile.html"> PROFILE </a></li>
+                <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+            </ul>
+            <div class="toggle_btn">
+                <img src="images/button.png" class="Button" >
+                </div>
+        </div>
+
+
+
+<div class="dropdown_menu">
+    <li> <a href="Index.html"> HOME </a></li>
+    <li> <a href="About.html"> ABOUT </a></li>
+    <li> <a href="Contact.html"> CONTACT </a></li>
+    <li> <a href="Profile.html"> PROFILE </a></li>
+    <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+</div>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+    }
+</script>
+
+
+        <div class="content"> 
+            <div class="title">
+                Capturing 
+
+             <div>  
+                <span class="Style"> alluring and fleeting </span> </div> 
+                Moments
+            </div>
+            <p> "For blissful moments are only appreciated when passed, <br> but when they are frozen, <br> one can admire them for all eternity." ~ J.P. Acaylar</p>
+
+            <div class="footer">
+                © JOYBELLE PAGE ACAYLAR PHOTOGRAPHY 
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html> 

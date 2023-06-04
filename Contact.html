@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    <title> JA Photography </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ContactCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+<div class="banner">
+        <div class="navbar">
+            <img src="Logo1.png" class="Logo">
+            <ul>
+				<li> <a href="index.html"> HOME </a></li>
+                <li> <a href="About.html"> ABOUT </a></li>
+                <li> <a href="Contact.html"> CONTACT </a></li>
+                <li> <a href="Profile.html"> PROFILE </a></li>
+                <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+            </ul>
+
+			<div class="toggle_btn">
+                <img src="images/button.png" class="Button" >
+                </div>
+        </div>
+
+<div class="dropdown_menu">
+    <li> <a href="Index.html"> HOME </a></li>
+    <li> <a href="About.html"> ABOUT </a></li>
+    <li> <a href="Contact.html"> CONTACT </a></li>
+    <li> <a href="Profile.html"> PROFILE </a></li>
+    <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+</div>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+    }
+</script>
+
+	<div class="container">
+        <h1> Connect With Us </h1>
+        <p> <b> Your queries will be responded immediately. Thank you for reaching out.</b> </p>
+        <div class="contact">
+
+            <div class="left">
+                <h2 class="Social"> Reach Us </h2>
+
+				<table>
+
+					<tr>
+						<td> Name: </td>
+						<td> Joybelle Page Acaylar</td>
+					</tr>
+
+					<tr>
+						<td> Email: </td>
+						<td> joybelle.acaylar@ctu.edu.ph</td>
+					</tr>
+
+					<tr>
+						<td> Phone:</td>
+						<td> +639 666 147 183</td>
+					</tr>
+
+					<tr>
+						<td> Address: </td>
+						<td> Crisostomo Ibarra St., <br>
+						Brgy. Dawo, Dapitan City <br> 
+					Z.D.N, Mindanao </td>
+					</tr>
+
+					<tr>
+						<td> Hours: </td>
+						<td> 8:00 AM - 5:00 PM </td>
+					</tr>
+					
+				</table>
+					<br>
+					<br>
+				
+				<div class="icons">
+					<a href="https://web.facebook.com/joybelle.acaylar"><img src="images/fb.png" width="27vh"></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://www.instagram.com/justj.bee/"><img src="images/ig.png" width="27vh"></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://www.pinterest.ph/joybelleacaylar/"><img src="images/twit.png" width="28vh"></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://www.pinterest.ph/joybelleacaylar/"><img src="images/pin.png" width="28vh"> </a>
+				</div>
+
+            </div>
+
+            <div class="right">
+                <h2> Send your message </h2>
+				<form> 
+
+					<div class="input-row">
+						<div class="input-group"> 
+							<label> Name </label>
+							<input type="text" placeholder="Enter your Name">
+						</div>
+						<br>
+						<div class="input-group"> 
+							<label> Email </label>
+							<input type="text" placeholder="Enter your Email">
+						</div>
+						<br>
+						<div class="input-group"> 
+							<label> Phone Number</label>
+							<input type="text" placeholder="Enter your Phone Number">
+						</div>
+						<br>
+						<label> Message </label>
+						<textarea rows="4" placeholder="Enter your Message"> </textarea>
+
+						<button type="Submit"> SEND </button>
+					</div>
+				</form>
+            </div>
+        </div>
+		<div class="footer">
+			 © JOYBELLE PAGE ACAYLAR PHOTOGRAPHY  
+		</div>
+    </div>
+        </div>
+    </div>
+</div>
+            
+
+</body>
+</html> 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title> JA Photography </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="Logo1.png" class="Logo">
+            <ul>
+                <li> <a href="index.html"> HOME </a></li>
+                <li> <a href="About.html"> ABOUT </a></li>
+                <li> <a href="Contact.html"> CONTACT </a></li>
+                <li> <a href="Profile.html"> PROFILE </a></li>
+                <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+            </ul>
+
+			<div class="toggle_btn">
+                <img src="images/button.png" class="Button" >
+                </div>
+        </div>
+
+
+
+<div class="dropdown_menu">
+    <li> <a href="Index.html"> HOME </a></li>
+    <li> <a href="About.html"> ABOUT </a></li>
+    <li> <a href="Contact.html"> CONTACT </a></li>
+    <li> <a href="Profile.html"> PROFILE </a></li>
+    <li> <a href="Photography.html"> PHOTOGRAPHY </a></li>
+</div>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+    }
+</script>
+
+		<div class="content"> 
+        
+            <p> "My photography captures fleeting moments <br> and timeless attractions. <br> They are often associated with the combination of the <br> naturality of nature's beauty and <br> the timelessness of attractive infrastractures." ~ J.P. Acaylar</p>
+
+        </div>
+	</div>
+	<section class="container">
+		<div class="slider-wrapper">
+			<div class="slider">
+				<img id="slide1" src="images/BGP.jpg" />
+				<img id="slide2" src="images/TB1.jpg" />
+				<img id="slide3" src="images/TS6.jpg" /> 
+			</div>
+
+			<div class="slider-nav">
+				<a href="#slide1"></a>
+				<a href="#slide2"></a>
+				<a href="#slide3"></a>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<div class="footer">
+		© JOYBELLE PAGE ACAYLAR PHOTOGRAPHY 
+	</div>
+</body>
+</html>
